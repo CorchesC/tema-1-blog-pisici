@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+    <label for="name">Nume</label>
+    <input type="text" id ="name" name ="user_name">
+    <br>
+    <label for="mail">Email:</label>
+    <input type="email" id = "mail" name = "user_email">
+    <br>
+    <label for="password">Parola:</label>
+    <input type="password" id ="password" name = "user_password">
+    <br>
+    <label for="password_verify">Verificare parola:</label>
+    <input type="text" id ="password_verify" name = "user_password_verify">
+    <br>
+    <label for="data_n">Introduceti data de nastere: </label>
+    <input type="month" id="data_n" name = "data_n" min = "1900-01" value = "2023-05" max="2023-05" >
+    <br>
+    <label for="timezone">Alegeti ora ta actuala: </label>
+    <input type="time" id = "timezone" name = "timezone" min = "00:00" max = "23:59" required>
+    <br>
+    <label for="avatar">Alege o imagine de profil:</label>
+    <br>
+    <input type="file" id ="avatar" name = "avatar" accept="image/png, image/jpeg">
+    <br>
+    <p>Alegeti culoarea numelui: </p>
+    <div>
+        <input type="color" id = "user_color" name = "user color" value ="#000000">
+        <label for="user_color">Culoare</label>
+    </div>
+    <button class="button_register" type="button_register"><a href="../index.html">Submit</a></button>
+    <br>
+      <p>Ai deja un cont? Logeaza-te <a href="login.html">aici</a></p>
+    </center>
+
+  </body>
+  </html>
